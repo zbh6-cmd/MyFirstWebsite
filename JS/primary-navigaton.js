@@ -13,6 +13,14 @@ document.getElementById("this-navigation").style.width = "0";
 document.getElementById("main").style.marginLeft = "0";
 }
 
+/*************  ✨ Codeium Command ⭐  *************/
+/**
+ * Prints out the string "I am Zoe" in a typewriter fashion in the html element with id "type-writer"
+ * @function typewriter
+ * @param {void} none
+ * @returns {void}
+ */
+/******  53bdba60-b03e-448c-96e8-56967bb4d09d  *******/
 function typewriter() {
     const txt = "I am Zoe";
     const speed = 50;
