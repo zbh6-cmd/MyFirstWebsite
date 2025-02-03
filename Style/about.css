@@ -1,3 +1,11 @@
 .About-section h1{
-    color: var(--dark-green);
+    display: block;
+    width: 100vw;
+    margin-bottom: 20px;
+    text-decoration: underline var(--dark-green);
 }
+
+.About-section h2{
+    margin-top: 20px;
+    font-size: 1.2rem;
+}   
