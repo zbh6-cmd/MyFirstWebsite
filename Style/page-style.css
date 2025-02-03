@@ -1,9 +1,15 @@
+:root{
+    --dark-green: #9ca37c;
+    --cream: #fdfcf7;
+    --text: rgba(20,28,15,255);
+}
+
 
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    color: rgba(20,28,15,255);
+    color: var(--text);
   }
 
 body {
@@ -13,13 +19,13 @@ body {
 
 .header{
     width:100%;
-    background-color: rgba(255,253,241,255);
+    background-color: var(--cream);
     position: sticky;
     top: 0;
 }
 
 .hero-background{
-    background: url("../Assets/Hero-background.jpg");
+    background: url("../Assets/hero.png");
     background-size: cover;
     background-repeat: no-repeat; 
     background-position: center;
@@ -104,34 +110,33 @@ body {
 .contact-button{
     background-color: #9ca37c;
     margin-right: 10px;
-    color: rgba(255,253,241,255);
+    color: var(--cream);
 }
 
 .contact-button:hover {
-    background-color: rgba(255,253,241,255);
+    background-color: var(--cream);
     scale: 0.95;
     transition: all 0.5s ease;
-    color: rgba(20,28,15,255);
+    color: var(--text);
 }
 
 .resume-button{
-    background-color: rgba(255,253,241,255);
+    background-color: var(--cream);
 }
 
 .resume-button:hover {
-    background-color: #9ca37c;
-    color: rgba(255,253,241,255);
+    background-color:var(--dark-green);
+    color: var(--cream);
     scale: 0.95;
     transition: all 0.5s ease;
 }
 
-.About-section{
-    background-color: #fdfcf7;
+.Projects-section{
+    background-image: url("../Assets/section1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-.Contact-section{
-    background-color: #fdfcf7;
-}
 
 footer{
     background-color: #9ca37c;
