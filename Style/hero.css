@@ -1,0 +1,21 @@
+.header{
+    width:100%;
+    background-color: var(--cream);
+    position: sticky;
+    top: 0;
+}
+
+.hero-background{
+    background: url("../Assets/hero.png");
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center;
+    width: 100vw;
+    height: auto;
+    margin: 0;
+    overflow: hidden;
+}
+.hero-content h1{
+    font-size: 5rem;
+    margin: 0%;
+}
