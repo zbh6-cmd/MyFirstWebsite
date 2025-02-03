@@ -22,7 +22,7 @@
 <body>
     <!-- Header -->
     <div id="this-navigation" class="primary-navigation">
-        <img class="logo" src="Assets/Pfp-icon.png" alt="logo" width="50%">
+        <img class="logo" src="Assets/PenguinFULL.png" alt="logo" width="50%">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <a href="#About-section">About</a>
         <a href="#Projects-section">Projects</a>
@@ -39,7 +39,7 @@
         <div class="global-padding">
             <div class="container">
                 <div class="row">
-                    <div class="columm left">
+                    <div class="columm left-hero">
                         <p>Hello,</p>
                         <h1 id="type-writer" class="type"></h1>
                         <div class="button-container">
@@ -47,7 +47,7 @@
                             <button class="resume-button btn">Resume</button>
                         </div>
                     </div>
-                    <div class="columm right">
+                    <div class="columm right-hero">
                         <img class="me" src="Assets/Penguin.png" alt="pfp">
                     </div>
                 </div>
@@ -58,7 +58,7 @@
     <section class="About-section">
         <div class="global-padding">
             <div class="container">
-                <h1>About Me</h1>
+                <h1>About <span style="color:var(--dark-green)">Me</span></h1>
                 <div class="row">
                     <div class="columm left">
                             <h2>all about me</h2>
@@ -76,15 +76,41 @@
     </section>
     <section class="Projects-section">
         <div class="global-padding">
-            <h1>Projects</h1>
-            <div class="container">
-                Featured Projects.
-            </div>
-            <div class="container">
-                Recent.
-            </div>
-            <div class="container">
-                ALL? search maybe?.
+            <div class="container projects">
+                <div class="img-gallery">
+                    <div class="img-gallery__item">
+                      <a href="#" class="img-gallery_link_name">
+                        <img src="../Assets/Penguin.png" width=300 height=300 alt="">
+                    </a>
+                        <div class="desc">
+                            <figcaption class="caption">desc</figcaption>
+                            <figcaption class="date">02/02/2025</figcaption>
+
+                        </div>
+                    </div>
+
+                    <div class="img-gallery__item">
+                        <a href="#" class="img-gallery_link_name">
+                          <img src="../Assets/Penguin.png" width=300 height=300 alt="">
+                      </a>
+                      <figcaption>desc</figcaption>
+                      </div>
+
+                      <div class="img-gallery__item">
+                        <a href="#" class="img-gallery_link_name">
+                          <img src="../Assets/Penguin.png" width=300 height=300 alt="">
+                      </a>
+                      <figcaption>desc</figcaption>
+                      </div>
+
+                      <div class="img-gallery__item">
+                        <a href="#" class="img-gallery_link_name">
+                          <img src="../Assets/Penguin.png" width=300 height=300 alt="">
+                      </a>
+                      <figcaption>desc</figcaption>
+                      </div>
+
+                    </div>
             </div>
         </div>
     </section>

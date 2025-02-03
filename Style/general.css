@@ -1,7 +1,9 @@
 :root{
+    --light-green: #dee5c2;
     --dark-green: #9ca37c;
     --cream: #fdfcf7;
     --text: rgba(20,28,15,255);
+    --gallery-items-per-row: 1;
 }
 
 * {
@@ -9,6 +11,11 @@
     margin: 0;
     padding: 0;
     color: var(--text);
+    &,
+    &::before,
+    &::after {
+      box-sizing: border-box;
+    }
   }
 
 body {
@@ -26,7 +33,7 @@ body {
 }
 .container{
     margin: auto;
-    overflow: hidden;
+    overflow: hidden;    
 }
 
 footer{
