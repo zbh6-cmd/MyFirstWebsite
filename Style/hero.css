@@ -5,6 +5,7 @@
     top: 0;
 }
 
+
 .hero-background{
     background: url("../Assets/hero.png");
     background-size: cover;
@@ -15,11 +16,20 @@
     margin: 0;
     overflow: hidden;
 }
+
+.hero-content{
+    padding: auto;
+    margin: auto;
+}
+
 .hero-content h1{
+    font-size: 10rem;
+}
+
+.hero-content p{
     font-size: 5rem;
     margin: 0%;
 }
-
 
 .row{
     display: flex;

@@ -1,11 +1,24 @@
-.About-section h1{
-    display: block;
-    width: 100vw;
-    margin-bottom: 20px;
-    text-decoration: underline var(--dark-green);
+#About-section .container{
+    display: grid;
+    justify-content: start;
+    padding-bottom:30px;
 }
 
-.About-section h2{
-    margin-top: 20px;
-    font-size: 1.2rem;
-}   
+#About-section h1{
+    margin-bottom: auto;
+    text-decoration: underline var(--dark-green);
+    padding : 10px 0px 5px;
+}
+
+.row{
+    width :100%;
+}
+
+#About-section .columm{
+    width: 50%;
+    text-align: left;
+}
+
+#About-section .columm.left{
+    padding-right: 20px;
+}

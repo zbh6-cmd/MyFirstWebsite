@@ -18,6 +18,7 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    
 </head>
 <body>
     <!-- Header -->
@@ -55,80 +56,83 @@
         </div>
     </div>
     </div>
-    <section class="About-section">
+    <section id="About-section">
         <div class="global-padding">
             <div class="container">
                 <h1>About <span style="color:var(--dark-green)">Me</span></h1>
                 <div class="row">
                     <div class="columm left">
-                            <h2>all about me</h2>
-                            <p>make this a lot smaller</p>
-                            <p>lines of passions and goals. </p>
+                            <h2>Lorem Ipsium</h2>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tortor nulla, pulvinar vel urna a, auctor iaculis ipsum. Suspendisse non ipsum dignissim orci mollis scelerisque egestas vitae dui. Nulla facilisi. Quisque eleifend dui sed lectus consequat, vitae fermentum mi tempor. Morbi vehicula arcu ac augue congue blandit</p>
                     </div>
                     <div class="columm right">
                         <h2>all about me pt2</h2>
-                        <p>make this a lot smaller</p>
-                        <p>lines of education? maybe make two collumn</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tortor nulla, pulvinar vel urna a, auctor iaculis ipsum. Suspendisse non ipsum dignissim orci mollis scelerisque egestas vitae dui. Nulla facilisi. Quisque eleifend dui sed lectus consequat, vitae fermentum mi tempor. Morbi vehicula arcu ac augue congue blandit</p>
                     </div> 
                 </div>
             </div>
         </div>
     </section>
-    <section class="Projects-section">
+    <section id="Projects-section">
         <div class="global-padding">
+            <h1>My Projects</h1>
             <div class="container projects">
                 <div class="img-gallery">
                     <div class="img-gallery__item">
-                      <a href="#" class="img-gallery_link_name">
+                    <a href="#" class="img-gallery_link_name">
                         <img src="../Assets/Penguin-fullbody.png" width=300 height=300 alt="">
                     </a>
-                        <div class="desc">
-                            <figcaption class="caption">desc</figcaption>
-                            <figcaption class="date">02/02/2025</figcaption>
-
-                        </div>
-                    </div>
-                    <div class="img-gallery__item">
-                        <a href="#" class="img-gallery_link_name">
-                          <img src="../Assets/Penguin.png" width=300 height=300 alt="">
-                      </a>
-                          <div class="desc">
-                              <figcaption class="caption">desc</figcaption>
-                              <figcaption class="date">02/02/2025</figcaption>
-  
-                          </div>
-                      </div>
-                      <div class="img-gallery__item">
-                        <a href="#" class="img-gallery_link_name">
-                          <img src="../Assets/Penguin.png" width=300 height=300 alt="">
-                      </a>
-                          <div class="desc">
-                              <figcaption class="caption">desc</figcaption>
-                              <figcaption class="date">02/02/2025</figcaption>
-  
-                          </div>
-                      </div>
-                      <div class="img-gallery__item">
-                        <a href="#" class="img-gallery_link_name">
-                          <img src="../Assets/Penguin.png" width=300 height=300 alt="">
-                      </a>
-                          <div class="desc">
-                              <figcaption class="caption">desc</figcaption>
-                              <figcaption class="date">02/02/2025</figcaption>
-  
-                          </div>
-                      </div>
-
-                    </div>
+                </div>
+                <div class="img-gallery__item">
+                    <a href="#" class="img-gallery_link_name">
+                        <img src="../Assets/Penguin-fullbody.png" width=300 height=300 alt="">
+                    </a>
+                </div>
+                <div class="img-gallery__item">
+                    <a href="#" class="img-gallery_link_name">
+                        <img src="../Assets/Penguin-fullbody.png" width=300 height=300 alt="">
+                    </a>
+                </div>
+                <div class="img-gallery__item">
+                    <a href="#" class="img-gallery_link_name">
+                        <img src="../Assets/Penguin-fullbody.png" width=300 height=300 alt="">
+                    </a>
+                </div>
+                <div class="img-gallery__item">
+                    <a href="#" class="img-gallery_link_name">
+                        <img src="../Assets/Penguin-fullbody.png" width=300 height=300 alt="">
+                    </a>
+                </div>
+                <div class="img-gallery__item">
+                    <a href="#" class="img-gallery_link_name">
+                        <img src="../Assets/Penguin-fullbody.png" width=300 height=300 alt="">
+                    </a>
+                </div>
+                <div class="img-gallery__item">
+                    <a href="#" class="img-gallery_link_name">
+                        <img src="../Assets/Penguin-fullbody.png" width=300 height=300 alt="">
+                    </a>
+                </div>
             </div>
         </div>
     </section>
     <!-- this is going to be a call to action section-->
-    <section class="Contact-section">
+    <section id="Contact-Section">
         <div class="global-padding">
-            <h1>Contact ME</h1>
             <div class="container">
-                content here.
+                <form>
+                    <h1>Contact Me</h1>
+
+                    <label for="name">Your Name</label>
+                    <input type="text" id="name" name="name" placeholder="name..">
+                    <label for="email" id="email" name="email" placeholder="email..">Email</label>
+                    <input type="text" id="email" name="email" placeholder="Email..">
+                    <label for="message" id="message" name="message" placeholder="message"></label>
+                    <label for="message">Your Message</label>
+                    <input type="text" id="message" name="message" placeholder="Message..">
+
+                    <input type="submit" class='button' value="Send" onclick="window.location.href='mailto:email@email.co'">
+                </form>
             </div>
         </div>
     </section>

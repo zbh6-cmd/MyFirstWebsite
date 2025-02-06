@@ -1,0 +1,41 @@
+#Contact-Section{
+    justify-content: center;
+    align-items: center;
+    width: 100%;   
+}
+
+#Contact-Section h1{
+    padding: 20px 0px;
+}
+
+#Contact-Section form{
+    margin: auto;
+
+    padding: 20px;
+    border-radius: 20px;
+    max-width:75%;
+    background-color: var(--cream);
+}
+
+#Contact-Section input{
+    width: 100%;
+    border: 0 none;
+    padding: 10px;
+    margin: 10px 0px;
+    border-radius: 20px;
+}
+
+#Contact-Section input:hover{
+    background-color: var(--light-green);
+}
+
+
+#Contact-Section #message{
+    min-height: 300px;
+}
+
+@media screen and (width <= 512px) {
+    #Contact-Section #message{
+        min-height: 200px;
+    }
+}

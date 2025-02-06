@@ -3,7 +3,7 @@
     --dark-green: #9ca37c;
     --cream: #fdfcf7;
     --text: rgba(20,28,15,255);
-    --gallery-items-per-row: 1;
+    font-size: 62.5%;
 }
 
 * {
@@ -34,6 +34,7 @@ body {
 .container{
     margin: auto;
     overflow: hidden;    
+
 }
 
 footer{
@@ -55,4 +56,36 @@ footer{
     color: var(--text);
     scale: 1.2;
     transition: all 0.5s ease;
+}
+
+@media screen and (width <= 512px) {
+    :root{
+        font-size: 46%;
+    }
+}
+
+@media only screen and (width >= 1024px) {
+    h1{
+        font-size: 4rem;
+    }   
+    h2{
+        font-size: 3rem;
+    }   
+ 
+  }
+  @media only screen and (768px < width < 1024px) {
+    h1{
+        font-size: 3rem;
+    }   
+    h2{
+        font-size: 2rem;
+    }    
+  }
+  @media only screen and (540px < width < 768px) {
+    h1{
+        font-size: 2rem;
+    }   
+    h2{
+        font-size: 1rem;
+    }   
 }
